@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".recoleccionDomiciliariaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="398dp"
+                    android:layout_height="217dp"
+                    android:layout_gravity="center|top"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/saneamiendo"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    tools:src="@drawable/saneamiendo" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#088A0D"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titulo6"
+                android:textAlignment="center"
+                android:textColor="#0D9C13"
+                android:textSize="24sp"
+                tools:text="@string/titulo6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:foregroundTint="#0EA114"
+                android:text="@string/contexto9"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:text="@string/contexto9" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/cotiza1"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:text="@string/cotiza1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titulo7"
+                android:textAlignment="center"
+                android:textColor="#0D9C13"
+                android:textSize="20sp"
+                tools:text="@string/titulo7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/contexto0"
+                android:textAlignment="center"
+                android:textColor="#070707"
+                android:textSize="17sp"
+                tools:text="@string/contexto0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="26dp" >
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titulo8"
+                android:textAlignment="center"
+                android:textColor="#0D9C13"
+                android:textSize="20sp"
+                tools:text="@string/titulo8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/contexto11"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                tools:text="@string/contexto11" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/titulo9"
+                android:textAlignment="center"
+                android:textColor="#0D9C13"
+                android:textSize="20sp"
+                tools:text="@string/titulo9" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/contexto12"
+                android:textAlignment="center"
+                android:textColor="#040404"
+                android:textSize="17sp"
+                tools:text="@string/contexto12" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

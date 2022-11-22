@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".recoleccionDomiciliariaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top">
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="398dp"
+                    android:layout_height="217dp"
+                    android:layout_gravity="center|top"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/recolecciondomiciliaria"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    tools:src="@drawable/recolecciondomiciliaria" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#088A0D"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/recoleccionDomiciliaria"
+                android:textAlignment="center"
+                android:textColor="#0D9C13"
+                android:textSize="24sp"
+                tools:text="@string/recoleccionDomiciliaria" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:foregroundTint="#0EA114"
+                android:text="@string/contexto"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:text="@string/contexto" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#0EA114"
+                android:fontFamily="sans-serif-condensed"
+                android:foreground="#E3DDDD"
+                android:foregroundGravity="center_horizontal"
+                android:text="Ver mapa"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="#060709"
+                android:textSize="24sp"
+                app:icon="@android:drawable/ic_dialog_map">
+
+            </Button>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="149dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/instrucciones"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                tools:text="@string/instrucciones" />
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

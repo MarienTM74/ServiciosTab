@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">ServiciosTabs</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    //recoleccios domiciliaria
+    <string name="recoleccionDomiciliaria">RECOLECCION DOMICILIARIA</string>
+    <string name="contexto">Es el servicio de recolección de residuos sólidos frente  al predio de un usuario ogenerador, y el transporte de dichos residuos, a una estacion de transferencia,a una unidad de tratamiento o al lugar de disposición final</string>
+    <string name="instrucciones">Una vez en el mapa, digite en el buscador la zona a consultar (Ejemplo,prados del norte), de enter y ubiquese sobre el mapa resaltado en color. En la parte izquierda podra visualizar los dias y horarios en los que nuestro servicio de recoleccion se presta en el lugar consultado.</string>
+    //barrido y limpieza
+    <string name="titulo">BARRIDO Y LIMPIEZA DE AREAS PUBLICAS</string>
+    <string name="contexto2">Las areas y vias publicas se dejan libres de todo residuo solido, esparcido o acomulado, de manera que dichas zonas queden libres de papeles, hojas, arenilla y similares y de cualquier otro objeto o material susceptible de ser removido manualmente o mediante el uso de equipos mecànicos</string>
+    <string name="subtitulo">Barrido y limpieza manual</string>
+    <string name="manual">Es la labor realizada por un operario usando escobas para retirar de las vias y àreas pùblicas papeles, hojas, arenilla acomuladay cualquier otro objeto material</string>
+    <string name="subtitulo1">Barrido y limpieza mecànica</string>
+    <string name="mecanica">Es la labor realizada por un vehiculo denominado barredora mecànica, conducida y manejada por un operario para retirar de las vìas y àreas pùblicas, papeles, hojas, arenilla acomulada y cualquier otro objeto o material</string>
+    //corte de Cesped
+    <string name="titulo1">CORTE DE CÈSPED</string>
+    <string name="contexto3">Corta el pasto ubicado en àreas verdes pùblicas, sin restricciòn de acceso, mediante el uso de equipos manuales o mecànicos. Comprende la recolecciòn y transporte del material obtenido hasta los sitios de aprovechamiento prioritariamente o de sisposiciòn final</string>
+    <string name="subtitulo2">Consulta la programaciòn mensual de este servicio:</string>
+    <string name="enero">Programaciòn mes Enero</string>
+    <string name="febrero">Programaciòn mes Febrero</string>
+    <string name="marzo">Programaciòn mes Marzo</string>
+    <string name="abril">Programaciòn mes Abril</string>
+    <string name="mayo">Programaciòn mes Mayo</string>
+    <string name="junio">Programaciòn mes Junio</string>
+    <string name="julio">Programaciòn mes Julio</string>
+    <string name="agosto">Programaciòn mes Agosto</string>
+    <string name="Septiembre">Programaciòn mes Septiembre</string>
+    <string name="Octubre">Programaciòn mes Octubre</string>
+    <string name="nov">Programaciòn mes Noviembre</string>
+    //poda de Arboles
+    <string name="titulo2">PODA DE ÁRBOLES</string>
+    <string name="contexto4">Esta actividad se desarrolla sobre àrboles con altura superior a dos metros, con el fin de retirar las ramas que puedan generar afectaciones a la movilidad urbana y a las comunidades locales.Los àrboles son intervenidos mediante el uso de equipos manuales o mecànicos</string>
+    <string name="subtitulo3">Consulta la programación mensual de este Servicio:</string>
+    <string name="enero1">Programaciòn mes Enero</string>
+    <string name="febrero1">Programaciòn mes Febrero</string>
+    <string name="marzo1">Programaciòn mes Marzo</string>
+    <string name="abril1">Programaciòn mes Abril</string>
+    <string name="mayo1">Programaciòn mes Mayo</string>
+    <string name="junio1">Programaciòn mes Junio</string>
+    <string name="julio1">Programaciòn mes Julio</string>
+    <string name="agosto1">Programaciòn mes Agosto</string>
+    <string name="Septiembre1">Programaciòn mes Septiembre</string>
+    <string name="Octubre1">Programaciòn mes Octubre</string>
+    <string name="nov1">Programaciòn mes Noviembre</string>
+    //servicios Especiales
+    <string name="titulo3">SERVICIOS ESPECIALES</string>
+    <string name="contexto5">Esta actividad integra la recoleccion especial de escombros domiciliarios, la recoleccion de inservibles, la atención de eventos privados en espacios públicos, la contenerizacion y la recolección de residuos hospitalarios.</string>
+    <string name="contexto6">Estos no hacen parte del servicio público de aseo convecional y tienen un costo adicional, dado que se realiza por iniciativa de un particular, quien debe programar el servicio a través de líneas de atención al usuario; el costo se definirá de acuerdo a las dimensiones de los elementos por recolectar o el evento a atender.</string>
+    <string name="cotiza">Solicita o cotiza el servicio en nuestra sección de contacto.</string>
+    <string name="titulo4">Recolección de escombros</string>
+    <string name="contexto7">Consiste en recoger y transportat en vehiculos de volteo(volquetas o ampliroll) residuos de construcción y demolición-RCD a sitios autorizados por la autoridad ambiental para tal fin.</string>
+    <string name="titulo5">Recolección de inservibles</string>
+    <string name="contexto8">Consiste en recoger y transportar en equipos especiales objetos inservibles tales como colchones,poltronas,inodoros viejos, muebles y todo aquello que no es posible recoger con los vehiculos compactadores.</string>
+    //Servicios Ambientales(Saneamiento)
+    <string name="titulo6">SERVICIOS AMBIENTALES</string>
+    <string name="contexto9">Los servicios ambientales especializados esán dirigidos a grandes centros comerciales, unidades residenciales,hotelería,entidades educativas,clínicas e industria en general, con necesidades de aseo,higiene y saneamiento tecnificado y profesional.</string>
+    <string name="cotiza1">Solicita o cotiza el servicios en nuestra sección de contacto</string>
+    <string name="titulo7">Zonas Verdes</string>
+    <string name="contexto0">Es el mantenimiento de zonas verdes realizando actividades como: Jardineria, corte de cesped y poda de árboles</string>
+    <string name="titulo8">Aseo Grueso</string>
+    <string name="contexto11">Es el servicio de lavado industrial y comercial como:Lavado de fachadas en alturas y espacios confinados, lavado y desengrase de bodegas y parqueaderos, limpieza de grafitis y muros, aseo final de obras</string>
+    <string name="titulo9">Saneamiento</string>
+    <string name="contexto12">Ofrecemos el servicio de control de plagas y desinfección de áreas.</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+
+</resources>

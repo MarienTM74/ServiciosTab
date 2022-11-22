@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/recoleccionDomiciliaria"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Recoleccion Domiciliaria"/>
+        <item
+            android:id="@+id/barridoLimpieza"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Barrido y Limpieza"/>
+        <item
+            android:id="@+id/corteCesped"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cortar el Cesped"/>
+        <item
+            android:id="@+id/podaArboles"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Podar Árboles"/>
+        <item
+            android:id="@+id/serviciosEspeciales"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Servicios Especiales"/>
+        <item
+            android:id="@+id/saneamiento"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Servicios Ambientales"/>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_shared"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Compartir"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="Enviar"/>
+        </menu>
+    </item>
+</menu>

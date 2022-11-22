@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_share" type="id">share</item>
+    <item name="nav_share" type="id">share</item>
+    <item name="nav_manage" type="id">manage</item>
+    <item name="nav_camera" type="id">camera</item>
+    <item name="action_settings" type="id" />
+</resources>
